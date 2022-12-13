@@ -1,0 +1,407 @@
+
+
+@media screen and (max-width: 1920px)
+{
+    #icone button[type="submit"] 
+    {
+        display: none;
+    }
+
+    .footerAssistance,.footerHebergement,.footerPropos
+    {
+        margin-top: 20px;
+        margin-bottom: 20px;
+        margin-right: 10%;
+        padding-left: 3%;
+    }
+
+    #hebergement
+{
+    width: 110px;
+    height: 35px;
+    color: #0065FC; 
+    margin-top: -48px;
+    margin-right: 65px;
+    padding-top: 44px;
+    padding-left: 15px;
+    border-top: 4px solid #0065FC;
+}
+
+}
+
+@media screen and (max-width: 992px)
+{
+    main
+    {
+        width: 100%;
+        display: flex;
+        flex-direction: column-reverse;
+    }
+
+    .ligneZero
+    {
+        width: 90%;
+    }
+
+    #icone button[type="submit"] 
+    {
+        display: none;
+    }
+
+    .ligneDeux
+    {
+        width: 100%;
+        height: auto;
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: row;
+        margin: 0px auto;
+        justify-content: space-evenly;
+    }
+
+    .boxUn
+    {
+        width: 100%;
+        flex-wrap: nowrap;
+    }
+
+    .boxDeux
+    {
+        width: 100%;
+        flex-direction: row;
+        flex-wrap: wrap;
+    }
+
+    .carteHebergements
+    {
+            width: 26%;
+    }
+
+    .cartePopulaires
+    {
+        color: black;
+        width: 24.6%;
+        height: auto;
+        flex-direction: column;
+        padding: 5px;
+        margin: 20px;
+        background-color: white;
+        border-radius: 20px 20px 20px 20px;
+        overflow: hidden;
+        text-decoration: none;
+    }
+
+    .heigth{
+    width: 100%;
+    height: 10rem;
+    margin-bottom: 2px;
+    }
+
+    .cartePopulaires img
+    {
+        width: 99%;
+        object-fit: cover;
+        border-radius: 20px 20px 0px 0px;
+        -webkit-border-radius: 20px 20px 0px 0px;
+        -moz-border-radius: 20px 20px 0px 0px;
+        -ms-border-radius: 20px 20px 0px 0px;
+        -o-border-radius: 20px 20px 0px 0px;
+    }
+
+    .divImg,.divright
+    {
+        width: 100%;
+    }
+
+    footer
+    {
+        width: 100%;
+        background-color: #F2F2F2;
+        display: flex;
+        align-content: flex-end;
+    }
+
+    .footerAssistance,.footerHebergement,.footerPropos
+    {
+        display: flex;
+        flex-direction: column;
+        padding: 0;
+        white-space: nowrap;
+    }
+}
+
+
+@media screen and (max-width: 768px)
+{
+    body
+    {
+        max-width: 768px;
+        width: 100%;
+        
+    }
+
+    .nav,.head
+    {
+        width: 100%;
+    }
+
+    nav{
+        margin-bottom: 40px;
+    }
+
+    .partie
+    {
+        width: 100%;
+        display: flex;
+        justify-content: center;
+    }
+
+    #hebergement
+    {
+        width: 50%;
+        padding-left: 15%;
+        height: 35px;
+        justify-content: center;
+        color: #0065FC;
+        border-top: none;
+    }
+
+    #activite
+    {
+        padding-left: 15%;
+        width: 50%;
+    }
+
+    .element
+    {
+        width: 4rem;
+        height: 0.5rem;
+    }
+
+    .element img
+    {
+        margin-top: 3px;
+        margin-right: 50px;
+
+    }
+
+    .partie:nth-child(1)
+    {
+        display: flex;
+        justify-content: center;
+        width: 100%;
+    }
+
+    .partie:nth-child(2)
+    {
+        width: 100%;
+        order: 3;
+        padding-top: 10%;
+        display: flex;
+        justify-content: space-around;
+    }
+
+    .partie:nth-child(3)
+    {
+        order: 2;
+    }
+
+    .head
+    {
+        width: 100%;
+        height: 150px;
+        flex-wrap: wrap;
+    }
+
+    .trait
+    {
+        width: 100%;
+        display: flex;
+        margin-top: -20px;
+    }
+
+    .trait-gauche
+    {
+        width: 50%;
+        border: 1px solid#0065FC;
+    }
+
+    .trait-droit
+    {
+        width: 50%;
+        margin-right: -20px;
+        border: 1px solid #F2F2F2;
+    }
+
+    .rechercher button[type="submit"] 
+    {
+        display: none;
+    }
+
+    #icone button[type="submit"] 
+    {
+        display: flex;
+        align-items: center;
+    justify-content: center;
+    border: none;
+    width: 60px;
+    height: 3rem;
+    padding: 0 20px 0 20px;
+    border-radius: 0 20px 20px 0;
+    font-size: 14px;
+    color: white;
+    background-color: #0065FC;
+    cursor: pointer;
+    }
+
+
+    .pFiltre
+    {
+        margin: 0px 0px;
+        line-height: 4px;
+        font-size: 1.3em;
+        font-weight: bolder;
+    }
+
+    .bold
+    {
+        margin-top: 40px;
+        margin-bottom: 15px;
+    }
+
+    #carte-2
+    {
+        margin: 30px 17px 0px 0px;
+    }
+
+    #carte-3
+    {
+        width: 100%;
+    }
+
+    .awesomeInfo
+    {
+        margin-top: 20px;
+    }
+
+    .awesomeInfoText
+    {
+        font-size: 1.3em;
+    }
+
+    .carte-1
+    {
+        margin-top: 15px;
+    }
+
+    .rechercher button [type="submit"]
+    {
+        display: none;
+    }
+
+    .boxUn
+    {
+        width: 100%;
+        background-color: white;
+    }
+
+    .boxDeux
+    {
+        width: 100%;
+        border-radius: 0px 0px 0px 0px;
+    }
+
+    .carteHebergements
+    {
+        width: 100%;
+        margin: 0px 0px 20px 0px;
+    }
+
+    .cartePopulaires
+    {
+        width: 100%;
+    }
+
+    .ligneZero
+    {
+        width: 86%;
+    }
+
+    .cartePopulaires
+    {
+        flex-direction: row;
+    }
+
+    .cartePopulaires img
+    {
+        border-radius: 20px 0px 0px 20px;
+    }
+
+    .carteFirst,.carteSecond,.carteFourth
+    {
+        width: 100%;
+        height: auto;
+    }
+
+    .first,.secondOne,.secondTwo,.fourthOne,.fourthTwo
+    {
+        height: 180px;
+        margin-bottom: 20px;
+    }
+
+    .first img,.secondOne img,.secondTwo img,.fourthOne img,.fourthTwo img
+    {
+        height: 125px;
+    }
+
+    .boldMarseille
+    {
+        font-size: 14px;
+        font-weight: bold;
+        margin: auto 10px;
+        margin: 10px 0px 0px 10px;
+        color: black;
+    }
+
+    footer
+    {
+        width: 100%;
+        margin: 10px 0px;
+        background-color: #F2F2F2;
+        display: flex;
+        flex-direction: column;
+		align-content: flex-end;
+    }
+
+    .footerAssistance,.footerHebergement,.footerPropos
+    {
+        display: flex;
+        flex-direction: column;
+        padding: 2% 5%;
+        margin-left: 30px;
+    }
+
+    .pGauche
+    {
+        font-size: 18px;
+    }
+
+    .awesomeInfo
+    {
+        width: auto;
+        display: flex;
+        justify-content: flex-start;
+        align-items: flex-start;
+    }
+
+    .titreTaille
+    {
+        margin-left: -15px;
+    }
+
+    .titreTaille_2
+    {
+        font-size: 20px;
+        margin-left: 0px;
+    }
+}
